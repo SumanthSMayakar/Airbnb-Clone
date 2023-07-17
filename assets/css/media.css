@@ -1,0 +1,28 @@
+/* FOR SMALLER SCREEN DEVICES */
+
+@media only screen and (max-width: 700px){
+
+    .logo{
+        position: fixed;
+        top: 4%;
+        left: 7%;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        display: inline-block;
+        width: 100%;
+        padding: 100px 7% 0;
+        background: #000;
+        text-align: right;
+    }
+    nav .nav-links li{
+        margin: 10px 0;
+        display: block;
+    }
+    .register-btn{
+        margin: 15px 0 30px;
+        display: inline-block;
+    }
+}
